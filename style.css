@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
+
+:root {
+    --background: #3a2a34;
+    --color: #f71f96;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.box-container {
+    min-height: 100vh;
+    position: relative;
+    background: var(--background);
+    padding: 4.5rem 7%;
+}
+
+.box-container .heading {
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.box-container .heading span {
+    color: var(--color);
+    text-transform: uppercase;
+}
+
+.box-container .box {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.box-container .box .image-container {
+    flex: 1 1 50rem;
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.box-container .box .image-container .small-image {
+    width: 20%;
+}
+
+.box-container .box .image-container .small-image img {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(255,255,255,0.3);
+    cursor: pointer;
+}
+ 
+.box-container .box .image-container .big-image {
+    width: 80%;
+}
+
+.box-container .box .image-container .big-image img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.box-container .box .content {
+    flex: 1 1 35rem;
+}
+
+.box-container .box .content h3 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.box-container .box .content p {
+    font-size: 2rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+
+.box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: var(--color);
+    margin: 1rem 0;
+}
+
+.box-container .box .price {
+    font-size: 2.5rem;
+    color: var(--color);
+    margin: 0.5rem 0;
+    font-weight: bolder;
+}
+
+
+.box-container .box .price span {
+    color: #fff;
+    font-size: 1.7rem;
+    text-decoration: line-through;
+}
+
+.box-container .box .btn {
+    display: inline-block;
+    color: #fff;
+    border: 0.1rem solid var(--color);
+    padding: 0.5rem 3rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+
+.box-container .box .btn:hover {
+    background: var(--color);
+}
