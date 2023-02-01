@@ -79,6 +79,7 @@ html {
 .box-container .box .image-container .big-image img {
     width: 100%;
     padding: 1rem;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2));
 }
 
 .box-container .box .content {
